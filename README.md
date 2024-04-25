@@ -94,7 +94,7 @@ sudo service apache2 restart
 # Create MySQL Database and User for the Laravel application (Replace 'database_name', 'user' and 'password' with your actual database name, username and password)
 mysql -uroot -proot <<MYSQL_SCRIPT
 CREATE DATABASE laravel;
-CREATE USER 'admin'@'localhost' IDENTIFIED BY 'Toyeeb';
+CREATE USER 'admin'@'localhost' IDENTIFIED BY 'lenny';
 GRANT ALL PRIVILEGES ON laravel.* TO 'admin'@'localhost';
 FLUSH PRIVILEGES;
 MYSQL_SCRIPT
